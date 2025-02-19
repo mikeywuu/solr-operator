@@ -16,6 +16,7 @@
 name: E2E / Integration Tests
 
 on:
+  workflow_dispatch:
   pull_request:
     branches:
       - 'main'
